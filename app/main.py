@@ -17,7 +17,7 @@ from app.models import FirewallRuleRequest, FirewallRuleResponse
 
 logger = logging.getLogger(__name__)
 
-_CLEANUP_INTERVAL = 3600  # seconds
+_CLEANUP_INTERVAL = 600  # seconds
 
 
 async def _cleanup_loop() -> None:
